@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    height: 100vh;
 }
 
 /* Nav Bar*/
@@ -18,7 +19,20 @@ nav {
   }
 
 /* right side button */  
-  .right-side{
+
+.container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 6%;
+}
+
+  .admin-btn{
+    position: relative;
+  }
+
+  .btn-container{
+    position: absolute;
+    right: 0;
   }
   
   
@@ -36,13 +50,17 @@ nav {
     padding: 10px 20px;
     border: none;
   }
+
+  .middle-container{
+    margin-top: 8%;
+  }
   
   /* Batch Button*/
 
   .buttons-container {
     display: flex;
     justify-content: space-between;
-    margin: 3% 2% 4% 2%;
+    margin: 0 2% 4% 2%;
   }
   
   .button {
@@ -115,6 +133,8 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
   
   .add-student-btn {
