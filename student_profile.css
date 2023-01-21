@@ -34,8 +34,19 @@
         text-align: center;
     }
 
-    .spend-token{
-
+    .btn{
+      color: #333;
+    display: inline;
+    width: 12%;
+    margin: 10px;
+    height: 10%;
+    background-color: #ffc107;
+    border: none;
+    height: 40px;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     }
 
     /* Transistion Table */  
