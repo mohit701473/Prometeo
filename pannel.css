@@ -16,6 +16,10 @@ nav {
     display: flex;
     align-items: center;
   }
+
+/* right side button */  
+  .right-side{
+  }
   
   
   .add-merchant-btn {
@@ -38,7 +42,7 @@ nav {
   .buttons-container {
     display: flex;
     justify-content: space-between;
-    margin: 4% 2% 4% 2%;
+    margin: 3% 2% 4% 2%;
   }
   
   .button {
