@@ -17,9 +17,6 @@ nav {
     align-items: center;
   }
   
-  .right-side {
-    display: flex;
-  }
   
   .add-merchant-btn {
     background-color: #ffc107;
@@ -50,6 +47,7 @@ nav {
     font-size: 1.3rem;
     text-align: center;
     border-radius: 5px;
+    margin: 0 1%;
   }
   
   .button-1 {
@@ -76,11 +74,19 @@ nav {
   } 
 
 
+.table-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
 /* Table */  
   
 table {
-    width: 100%;
     border-collapse: collapse;
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
   }
   
   th, td {
@@ -120,9 +126,7 @@ table {
  /* footer part */
 
 .footer-section{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+   
 }
 
 .nav-footer{
