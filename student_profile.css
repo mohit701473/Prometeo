@@ -2,39 +2,31 @@
         margin: 0;
       }
 
-   /* Navigation bar*/
-      nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(176, 168, 168);
+      /* student-container */
+      .student-container{
+        margin: 5%;
       }
       
-      .brand-name {
-        font-size: 1.2rem;
-        font-weight: bold;
-      }
-      
+      /* profile-container */
       .profile {
-        display: flex;
+        display: inline;
         align-items: center;
       }
       
       .profile-info {
         display: flex;
-        flex-direction: column; /* stack child elements vertically */
+        flex-direction: column; 
         align-items: center;
       }
       
       .profile-info img {
-        width: 40px;
-        height: 40px;
+        width: 13%;
         border-radius: 50%;
-        margin-bottom: 0.5rem; /* add space between image and name */
+        margin-bottom: 0.5rem; 
       }
       
       .profile-name {
-        font-size: 1rem;
+        font-size: 2rem;
       }
 
       /* middle-container */
@@ -70,23 +62,3 @@ table {
     }
   }
 
-  /* footer part */
-
-.nav-footer{
-    display: block;
-    margin-bottom: 1.3rem;
-    background-color: #333 !important;
-}
-footer {
-    background-color: #333 !important;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-footer h6 {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 20px;
-    display: inline;
-}
