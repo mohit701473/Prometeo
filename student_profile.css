@@ -1,0 +1,92 @@
+      body{
+        margin: 0;
+      }
+
+   /* Navigation bar*/
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(176, 168, 168);
+      }
+      
+      .brand-name {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      
+      .profile {
+        display: flex;
+        align-items: center;
+      }
+      
+      .profile-info {
+        display: flex;
+        flex-direction: column; /* stack child elements vertically */
+        align-items: center;
+      }
+      
+      .profile-info img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-bottom: 0.5rem; /* add space between image and name */
+      }
+      
+      .profile-name {
+        font-size: 1rem;
+      }
+
+      /* middle-container */
+    .middle-container{
+        text-align: center;
+    }
+
+    .spend-token{
+
+    }
+
+    /* Transistion Table */  
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    th, td {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    th {
+      padding-top: 12px;
+    }
+  }
+
+  /* footer part */
+
+.nav-footer{
+    display: block;
+    margin-bottom: 1.3rem;
+    background-color: #333 !important;
+}
+footer {
+    background-color: #333 !important;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h6 {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline;
+}
