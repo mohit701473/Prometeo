@@ -128,6 +128,17 @@ table {
     }
   }
 
+  .send-token-btn{
+    color: #333;
+    display: inline;
+    width: 30%;
+    background-color: #ffc107;
+    border: none;
+    height: 40px;
+    font-size: 1rem;
+
+  }
+
 /* Add Student Btn*/
 .center-btn {
     display: flex;
